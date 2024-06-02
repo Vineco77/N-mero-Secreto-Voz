@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
+:root {
+
+    --font-family: "Reddit Mono", monospace;
+    --primart-color:#97BE5A;
+    --bg-color:#A0153E;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primart-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+  font-size: 6rem;  
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primart-color);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    margin-top: 1rem;
+    padding: 10px 15px;
+    background-color: var(--primart-color);
+    border-radius: 32px;
+    border: 0;
+    font-family: var(--font-family);
+    font-size: 3rem;
+    color: var(--bg-color);
+}
